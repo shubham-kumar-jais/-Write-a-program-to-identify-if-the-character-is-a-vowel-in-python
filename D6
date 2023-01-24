@@ -1,0 +1,9 @@
+#Write a program to identify if the character is a vowel or consonant.
+che=input("enter a check vawel or consonent: ")
+if che=='A'or che=='E'or che=='I'or che=='O'or che=='U' or che=='a'or che=='e'or che=='i'or che=='o'or che=='u':
+ print("vowel")
+elif(che=='0' or che=='1' or che=='2' or che=='3'or che=='4' or che=='5' or 
+che=='6' or che=='7' or che=='8' or che=='9'):
+ print("default")
+else:
+ print("consonant")
